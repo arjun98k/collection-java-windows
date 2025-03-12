@@ -3,6 +3,8 @@ package enumeration;
 public class Enum1
 {
     public static void main(String[] args) {
-        System.out.println(Enumclass.FRIDAY);
+//        System.out.println(Enumclass.FRIDAY);
+        Enumclass  FRIDAY = Enumclass.FRIDAY;
+        System.out.println(Enumclass.FRIDAY.ordinal());
     }
 }
