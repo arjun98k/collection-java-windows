@@ -36,7 +36,9 @@ public class Genricstud1 {
 //        System.out.println(ak.getValue());
 
         Pair<String, Integer> pair = new Pair<>("Arjun", 98);
+        Pair<String, Integer> pair1 = new Pair<>("Aditya",99);
         System.out.println(pair.getKey());
         System.out.println(pair.getValue());
+        System.out.println(pair1.getKey() +" " + pair1.getValue());
     }
 }
