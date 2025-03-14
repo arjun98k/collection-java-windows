@@ -1,5 +1,7 @@
 package linkedinlist;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 
 
@@ -15,9 +17,14 @@ public class LinkuList {
 //        l1.removeIf(x -> x%2 == 0);
         l1.addFirst(98);
         l1.addLast(99);
+        System.out.println(l1.get(2)); // O(N)
 
-       for(int element : l1){
-           System.out.println(element);
-       }
+//       for(int element : l1){
+//           System.out.println(element);
+//       }
+        LinkedList<String> l2 = new LinkedList<>(Arrays.asList("Dog", "cat","elephant"));
+        LinkedList<String> animalremove = new LinkedList<>(Arrays.asList("elephant"));
+        System.out.println(l2.removeAll(animalremove));
+        System.out.println(l2);
     }
 }
