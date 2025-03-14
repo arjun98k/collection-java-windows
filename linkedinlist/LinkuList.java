@@ -11,6 +11,8 @@ public class LinkuList {
         l1.add(11);
         l1.add(2);
         l1.add(3);
+        l1.add(3,120);
+
        for(int element : l1){
            System.out.println(element);
        }
