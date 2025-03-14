@@ -12,7 +12,7 @@ public class LinkuList {
         l1.add(2);
         l1.add(3);
         l1.add(3,120); // O(1)
-       ` l1.removeIf(x -> x%2 == 0);
+        l1.removeIf(x -> x%2 == 0);
 
        for(int element : l1){
            System.out.println(element);
