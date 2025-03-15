@@ -17,5 +17,7 @@ public class vec1 {
         System.out.println(l1);
         System.out.println(l1.capacity());
         System.out.println(l1.isEmpty());
+        l1.clear();
+        System.out.println(l1);
     }
 }
