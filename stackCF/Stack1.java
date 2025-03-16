@@ -11,6 +11,9 @@ public class Stack1 {
         list.push(4);
         list.push(5);
 
+//        System.out.println(list.peek());
+        System.out.println(list.pop());
+
         for (int elements: list){
             System.out.println(elements);
         }
