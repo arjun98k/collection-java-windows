@@ -11,8 +11,10 @@ public class Hashmap1 {
         l1.put(3,"raju");
         l1.put(4,"Arjun");
 //        System.out.println(l1);
-        System.out.println( l1.containsValue("Arjun"));
-        System.out.println(l1.get(3));
+//        System.out.println( l1.containsValue("Arjun"));
+//        System.out.println(l1.get(3));
+        Object ak = l1.clone();
+        System.out.println(ak);
 //        for (Map.Entry<Integer, String> entry : l1.entrySet()) {
 //            System.out.println(entry.getKey() + ": " + entry.getValue());
 //        }
