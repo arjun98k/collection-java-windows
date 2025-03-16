@@ -12,11 +12,13 @@ public class Stack1 {
         list.push(5);
 
 //        System.out.println(list.peek());
-        System.out.println(list.pop());
+//        System.out.println(list.pop());
 
-        for (int elements: list){
-            System.out.println(elements);
-        }
+        System.out.println(list.getFirst());
+
+//        for (int elements: list){
+//            System.out.println(elements);
+//        }
 
     }
 }
