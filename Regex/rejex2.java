@@ -15,11 +15,19 @@ public class rejex2 {
 
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter your regular expression");
-        String rex = sc.nextLine();
-        System.out.println("enter the string");
-        String str = sc.nextLine();
-        findregex(rex,str);
+       while (true) {
+           Scanner sc = new Scanner(System.in);
+           System.out.println("enter your regular expression");
+           String rex = sc.nextLine();
+           System.out.println("enter the string");
+           String str = sc.nextLine();
+           findregex(rex,str);
+           System.out.println("enter Y to exit");
+           String choice = sc.nextLine();
+           if (choice.equalsIgnoreCase("y")){
+               System.out.println("thank you");
+               break;
+           }
+       }
     }
 }
