@@ -28,6 +28,7 @@ public class rejex2 {
                System.out.println("thank you");
                break;
            }
+//^[a-zA-z0-9]+@[a-zA-Z0-9]+\.[a-zA-z]{2,}$
        }
     }
 }
