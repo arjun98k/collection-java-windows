@@ -10,6 +10,11 @@ public class example1 {
         System.out.println("divide hora hai");
     }
     public static int divide(int a , int b){
-        return  a/b;
+       try {
+           return  a/b;
+       } catch (ArithmeticException e) {
+           System.out.println(e);
+           return -1;
+       }
     }
 }
