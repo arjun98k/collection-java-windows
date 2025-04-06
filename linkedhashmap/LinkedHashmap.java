@@ -9,7 +9,9 @@ public class LinkedHashmap {
         linkedhashmap.put(11,"Aditya sardesai");
         linkedhashmap.put(12,"amey coolkarni");
         linkedhashmap.put(13,"Arjun kandekar");
-     linkedhashmap.get("Arjun kandekar");
+//     linkedhashmap.get("Arjun kandekar");
+     linkedhashmap.put(12,"adira");
+     linkedhashmap.put(13,"swati patil");
 
         for (Map.Entry<Integer,String> entry : linkedhashmap.entrySet()){
             System.out.println(entry.getKey() + " "+ entry.getValue());
