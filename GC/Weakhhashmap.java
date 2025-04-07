@@ -20,13 +20,13 @@ class Image {
 public class Weakhhashmap {
     public static void main(String[] args) {
         WeakHashMap<String,Image> iamgecache = new WeakHashMap<>();
-        iamgecache.put("img1",new Image("Image1"));
-        iamgecache.put("img2",new Image("Image2"));
+        iamgecache.put(new String("Img1"),new Image("Image1"));
+        iamgecache.put(new String("Img2"),new Image("Image2"));
         System.out.println(iamgecache);
         System.gc();
         simulateApplicationRunning();
 
-        System.out.println(iamgecache);
+        System.out.println("Cache after running (some enteries may be be cleared " +iamgecache);
 
     }
     private static void simulateApplicationRunning(){
