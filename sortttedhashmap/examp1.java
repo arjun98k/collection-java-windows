@@ -15,6 +15,7 @@ public class examp1 {
 //        System.out.println(sortermap);
 
         System.out.println(sortermap.lastKey());
+        System.out.println(sortermap.firstKey());
 
 
 //        for (Map.Entry<String,Integer> entry: sortermap.entrySet()){
