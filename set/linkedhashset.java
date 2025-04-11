@@ -12,5 +12,6 @@ public class linkedhashset {
         System.out.println(set2);
         System.out.println(set2.contains(13));
         System.out.println(set2.isEmpty());
+        System.out.println(set2.size());
     }
 }
