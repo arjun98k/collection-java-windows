@@ -16,6 +16,7 @@ public class examp1 {
 
         System.out.println(sortermap.lastKey());
         System.out.println(sortermap.firstKey());
+        System.out.println(sortermap.headMap("arjun"));
 
 
 //        for (Map.Entry<String,Integer> entry: sortermap.entrySet()){
