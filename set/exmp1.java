@@ -9,5 +9,6 @@ public class exmp1 {
         set1.add(12);
         set1.add(11);
         System.out.println(set1);
+        System.out.println(set1.hashCode());
     }
 }
