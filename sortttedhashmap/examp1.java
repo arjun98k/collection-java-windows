@@ -12,7 +12,10 @@ public class examp1 {
         sortermap.put("arjun",98);
         sortermap.put("cutie",99);
         sortermap.put("kritika",101);
-        System.out.println(sortermap);
+//        System.out.println(sortermap);
+
+        System.out.println(sortermap.lastKey());
+
 
 //        for (Map.Entry<String,Integer> entry: sortermap.entrySet()){
 //            System.out.println(entry.getKey() + " " + entry.getValue());
