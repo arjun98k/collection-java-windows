@@ -10,5 +10,6 @@ public class linkedhashset {
         set2.add(13);
         set2.add(14);
         System.out.println(set2);
+        System.out.println(set2.contains(13));
     }
 }
