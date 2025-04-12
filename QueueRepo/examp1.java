@@ -11,6 +11,9 @@ public class examp1 {
         l1.add(13);
         System.out.println(l1.peek());
         System.out.println(l1.poll());
+//        System.out.println(l1.offer(12));
+        l1.remove(12);
+        System.out.println(l1.contains(12));
         System.out.println(l1.offer(12));
     }
 }
