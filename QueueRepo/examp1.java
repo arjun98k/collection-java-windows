@@ -15,5 +15,7 @@ public class examp1 {
         l1.remove(12);
         System.out.println(l1.contains(12));
         System.out.println(l1.offer(12));
+        System.out.println(l1.removeAll(l1));
+        System.out.println(l1.isEmpty());
     }
 }
