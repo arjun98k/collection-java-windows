@@ -14,5 +14,7 @@ public class Thread1 extends Thread {
     public static void main(String[] args) {
         Thread1 t1 = new Thread1();
         System.out.println(t1.getState());
+        t1.start();
+        System.out.println(t1.getState());
     }
 }
