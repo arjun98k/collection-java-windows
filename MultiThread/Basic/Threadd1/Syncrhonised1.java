@@ -26,7 +26,7 @@ public class Syncrhonised1 extends Thread {
         } catch (InterruptedException e) {
            e.printStackTrace();
         }
-        System.out.println("final count  " + counter.getCount());
+        System.out.println("final count   " + counter.getCount());
 
     }
 }
