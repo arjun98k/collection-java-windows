@@ -13,7 +13,7 @@ private static final ReentrantLock lock = new ReentrantLock(false);
                 for (int j = 0; j <3 ; j++) {
                     lock.lock();
                     try {
-                        System.out.println("Thread " + threadId + " got the lock");
+                        System.out.println("Thread " + threadId + " got the lock thread");
                         try {
                             Thread.sleep(100);
                         } catch (InterruptedException e) {
