@@ -13,7 +13,7 @@ public class World implements Runnable {
 
     public void run(){
         for (int i = 0; i < 10000 ; i++) {
-            System.out.println("world of 2 arjun  "+ Thread.currentThread().getName() );
+            System.out.println("world of 2 arjun is "+ Thread.currentThread().getName() );
         }
     }
 }
