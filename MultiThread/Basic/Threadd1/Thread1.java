@@ -3,7 +3,7 @@ package MultiThread.Basic.Threadd1;
 public class Thread1 extends Thread {
     @Override
     public void run() {
-        System.out.println("something happening 2nd thread "+ Thread.currentThread().getName() );
+        System.out.println("something is  happening 2nd thread "+ Thread.currentThread().getName() );
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
