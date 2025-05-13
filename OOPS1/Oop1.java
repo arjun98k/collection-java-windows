@@ -1,11 +1,20 @@
 package OOPS1;
+class omkar{
+    String name = "Arjun";
 
+    public String getName() {
+        return name;
+    }
+}
 
-public class Oop1 {
+ class Oop1 extends omkar {
 
 
     public static void main(String[] args) {
-        System.out.println("OOPs");
+
+        omkar obj = new omkar();
+        System.out.println( obj.getName());
+
     }
 }
 
