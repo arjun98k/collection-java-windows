@@ -1,6 +1,10 @@
 package OOPS1;
 class omkar{
-    String name = "Arjun";
+    private String name ;
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;
@@ -13,6 +17,7 @@ class omkar{
     public static void main(String[] args) {
 
         omkar obj = new omkar();
+        obj.setName("amita");
         System.out.println( obj.getName());
 
     }
