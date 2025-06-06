@@ -18,5 +18,6 @@ public class Oop11 {
     public static void main(String[] args) {
      Mani obj = new Mani();
      obj.area(11,12);
+     obj.area(12,14);
     }
 }
