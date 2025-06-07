@@ -10,13 +10,16 @@ class Hp {
         id = I;
     }
     void show(){
-        System.out.println("name of hospital " + name + " id of hosiptal " + hosipitaltype );
+        System.out.println("name of hospital " + name + " id of hosiptal " + id + " " + hosipitaltype );
     }
 }
 
 public class Oop7 {
     public static void main(String[] args) {
    Hp obj = new Hp("moti",12);
+   Hp obj2 = new Hp("arjun",1);
       obj.show();
+      obj2.show();
     }
+
 }
