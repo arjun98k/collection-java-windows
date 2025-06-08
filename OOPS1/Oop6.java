@@ -10,6 +10,7 @@ class OOPSS {
 
     void display(){
         System.out.println(name + " "+ Id);
+        System.out.println(name + " " + Id);
     }
 }
 
