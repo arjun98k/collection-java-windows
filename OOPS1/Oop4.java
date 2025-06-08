@@ -14,5 +14,7 @@ public class Oop4 {
     public static void main(String[] args) {
        Oops obj1 = new Oops();
         obj1.show();
+        Oops obj2 = new Oops();
+        obj2.show();
     }
 }
