@@ -20,6 +20,7 @@ public class Oop9 {
         TataXuv carobj = new TataXuv();
         carobj.Tatacar();
         carobj.Fourwheel();
+        carobj.Tatacar();
     }
 
 }
